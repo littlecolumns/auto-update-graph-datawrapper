@@ -102,7 +102,7 @@ Remember when we found that link to our website? My link looks like this:
 > **Your site is live at https://jsoma.github.io/auto-update-graph-datawrapper/**
 > Last deployed by @github-pages github-pages 2 minutes ago
 
-Go to your website and make sure your chart is there!
+Go to your website and make sure your chart is there! If it doesn't work, maybe wait a couple minutes and try again. You can also hold down **shift** and click the refresh button to **force refresh**.
 
 ## 12. Beautify your website
 

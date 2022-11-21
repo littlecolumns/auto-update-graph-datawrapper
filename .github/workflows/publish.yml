@@ -2,7 +2,7 @@ name: publish
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */6 * * *'
   push:
 jobs:
   publish:
@@ -17,7 +17,7 @@ jobs:
     - name: Install all necessary packages
       run: pip install jupyter lxml pandas requests beautifulsoup4
     - name: Run the scraping script
-      run: jupyter nbconvert --to notebook --execute "Pumpkin update script.ipynb" --stdout
+      run: jupyter nbconvert --to notebook --execute "Cornwall hills.ipynb" --stdout
     - name: Commit and push any changes
       run: |-
         git config user.name "Automated"
